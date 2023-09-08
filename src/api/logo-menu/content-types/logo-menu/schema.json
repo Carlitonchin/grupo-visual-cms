@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "logo_menus",
+  "info": {
+    "singularName": "logo-menu",
+    "pluralName": "logo-menus",
+    "displayName": "004LogoMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

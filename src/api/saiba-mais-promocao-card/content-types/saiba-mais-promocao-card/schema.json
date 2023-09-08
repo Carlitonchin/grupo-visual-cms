@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "saiba_mais_promocao_cards",
+  "info": {
+    "singularName": "saiba-mais-promocao-card",
+    "pluralName": "saiba-mais-promocao-cards",
+    "displayName": "007SaibaMaisPromocaoCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_presentacaos",
+  "info": {
+    "singularName": "home-presentacao",
+    "pluralName": "home-presentacaos",
+    "displayName": "008HomePresentacao"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "video": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

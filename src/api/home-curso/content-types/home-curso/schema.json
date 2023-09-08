@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_cursos",
+  "info": {
+    "singularName": "home-curso",
+    "pluralName": "home-cursos",
+    "displayName": "011HomeCursos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "curso": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::curso.curso",
+      "inversedBy": "home_curso"
+    }
+  }
+}

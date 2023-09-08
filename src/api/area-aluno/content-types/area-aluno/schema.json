@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "area_alunos",
+  "info": {
+    "singularName": "area-aluno",
+    "pluralName": "area-alunos",
+    "displayName": "003AreaAluno",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "texto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

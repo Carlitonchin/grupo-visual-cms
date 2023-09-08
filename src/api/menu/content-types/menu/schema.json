@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "001Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "filhos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::submenu.submenu",
+      "mappedBy": "pai"
+    }
+  }
+}

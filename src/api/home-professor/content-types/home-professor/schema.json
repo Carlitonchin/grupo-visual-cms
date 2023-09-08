@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_professores",
+  "info": {
+    "singularName": "home-professor",
+    "pluralName": "home-professores",
+    "displayName": "013HomeProfessores"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

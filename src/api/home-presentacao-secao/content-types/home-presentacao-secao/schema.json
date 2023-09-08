@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_presentacao_secoes",
+  "info": {
+    "singularName": "home-presentacao-secao",
+    "pluralName": "home-presentacao-secoes",
+    "displayName": "009HomePresentacaoSecoes"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

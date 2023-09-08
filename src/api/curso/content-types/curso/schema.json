@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "singularName": "curso",
+    "pluralName": "cursos",
+    "displayName": "0001Cursos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "estrelas": {
+      "type": "float",
+      "required": true,
+      "min": 0,
+      "max": 5,
+      "default": 5
+    },
+    "formato": {
+      "type": "string",
+      "default": "Online",
+      "required": true
+    },
+    "duracao": {
+      "type": "string",
+      "required": true
+    },
+    "preco": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "sobre_o_curso": {
+      "type": "text",
+      "required": true
+    },
+    "objetivo": {
+      "type": "text",
+      "required": true
+    },
+    "conteudo": {
+      "type": "text"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria.categoria",
+      "inversedBy": "cursos"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "certificacao": {
+      "type": "string",
+      "required": true
+    },
+    "home_curso": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-curso.home-curso",
+      "mappedBy": "curso"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promocao_cards",
+  "info": {
+    "singularName": "promocao-card",
+    "pluralName": "promocao-cards",
+    "displayName": "006PromocaoCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

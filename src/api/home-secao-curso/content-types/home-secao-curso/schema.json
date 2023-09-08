@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_secao_cursos",
+  "info": {
+    "singularName": "home-secao-curso",
+    "pluralName": "home-secao-cursos",
+    "displayName": "012HomeSecaoCursos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "link_texto": {
+      "type": "string",
+      "required": true
+    },
+    "link_url": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

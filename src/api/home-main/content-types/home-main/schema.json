@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_mains",
+  "info": {
+    "singularName": "home-main",
+    "pluralName": "home-mains",
+    "displayName": "005HomeMain",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto1": {
+      "type": "string",
+      "required": true
+    },
+    "texto2": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "url_img": {
+      "type": "string",
+      "required": true
+    },
+    "texto_botao": {
+      "type": "string",
+      "required": true
+    },
+    "url_botao": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

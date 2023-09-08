@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_cards_professores",
+  "info": {
+    "singularName": "home-card-professores",
+    "pluralName": "home-cards-professores",
+    "displayName": "014HomeCardProfessores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto_frente": {
+      "type": "string",
+      "required": true
+    },
+    "texto_atras": {
+      "type": "string",
+      "required": true
+    },
+    "texto_botao": {
+      "type": "string",
+      "required": true
+    },
+    "url_botao": {
+      "type": "string",
+      "required": true
+    },
+    "img_frente": {
+      "type": "string",
+      "required": true
+    },
+    "img_atras": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
