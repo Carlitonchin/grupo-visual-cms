@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "contatos_paginas",
+  "info": {
+    "singularName": "contato-pagina",
+    "pluralName": "contatos-paginas",
+    "displayName": "0002ContatoPagina"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fundo": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "telefone": {
+      "type": "string",
+      "required": true
+    },
+    "telefone_formatado": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "texto_botao": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

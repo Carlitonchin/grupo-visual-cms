@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_blog_cards",
+  "info": {
+    "singularName": "home-blog-card",
+    "pluralName": "home-blog-cards",
+    "displayName": "016HomeBlogCards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "texto_botao": {
+      "type": "string",
+      "required": true,
+      "default": "Ver mais"
+    }
+  }
+}

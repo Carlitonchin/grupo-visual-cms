@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes_alunos",
+  "info": {
+    "singularName": "home-alunos",
+    "pluralName": "homes-alunos",
+    "displayName": "017HomeAlunos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "ver_mais": {
+      "type": "string",
+      "required": true,
+      "default": "Ver Mais"
+    },
+    "ver_menos": {
+      "type": "string",
+      "required": true,
+      "default": "Ver Menos"
+    }
+  }
+}

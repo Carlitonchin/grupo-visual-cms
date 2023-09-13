@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "brand_titulos",
+  "info": {
+    "singularName": "brand-titulo",
+    "pluralName": "brand-titulos",
+    "displayName": "019BrandTitulo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

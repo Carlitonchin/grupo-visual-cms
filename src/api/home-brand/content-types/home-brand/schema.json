@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_brands",
+  "info": {
+    "singularName": "home-brand",
+    "pluralName": "home-brands",
+    "displayName": "020HomeBrands"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

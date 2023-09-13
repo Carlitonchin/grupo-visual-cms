@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "professores_carousels",
+  "info": {
+    "singularName": "professor-carousel",
+    "pluralName": "professores-carousels",
+    "displayName": "026ProfessoresCarousel"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

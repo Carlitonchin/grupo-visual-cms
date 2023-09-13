@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links_footer",
+  "info": {
+    "singularName": "link-footer",
+    "pluralName": "links-footer",
+    "displayName": "024LinksFooter"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

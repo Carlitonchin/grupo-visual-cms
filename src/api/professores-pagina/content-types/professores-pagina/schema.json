@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "professores_paginas",
+  "info": {
+    "singularName": "professores-pagina",
+    "pluralName": "professores-paginas",
+    "displayName": "025ProfessoresPagina"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

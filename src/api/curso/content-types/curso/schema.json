@@ -73,6 +73,12 @@
       "relation": "oneToOne",
       "target": "api::home-curso.home-curso",
       "mappedBy": "curso"
+    },
+    "professores": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::professor.professor",
+      "mappedBy": "cursos"
     }
   }
 }

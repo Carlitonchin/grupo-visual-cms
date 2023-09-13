@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_cards_alunos",
+  "info": {
+    "singularName": "home-card-alunos",
+    "pluralName": "home-cards-alunos",
+    "displayName": "018HomeCardsAlunos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

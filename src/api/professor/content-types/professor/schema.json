@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "professores",
+  "info": {
+    "singularName": "professor",
+    "pluralName": "professores",
+    "displayName": "0003Professores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "resumo": {
+      "type": "text",
+      "required": true
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria.categoria",
+      "inversedBy": "professores"
+    },
+    "cursos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::curso.curso",
+      "inversedBy": "professores"
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

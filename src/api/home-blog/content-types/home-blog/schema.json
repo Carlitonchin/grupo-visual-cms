@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_blogs",
+  "info": {
+    "singularName": "home-blog",
+    "pluralName": "home-blogs",
+    "displayName": "015HomeBlog"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "link_texto": {
+      "type": "string",
+      "required": true
+    },
+    "link_url": {
+      "type": "string",
+      "required": true
+    },
+    "link_externo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

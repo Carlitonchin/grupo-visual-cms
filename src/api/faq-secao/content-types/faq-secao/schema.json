@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "faq_secaos",
+  "info": {
+    "singularName": "faq-secao",
+    "pluralName": "faq-secaos",
+    "displayName": "021FaqSecao"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
