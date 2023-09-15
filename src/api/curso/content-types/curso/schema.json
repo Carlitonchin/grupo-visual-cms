@@ -79,6 +79,10 @@
       "relation": "manyToMany",
       "target": "api::professor.professor",
       "mappedBy": "cursos"
+    },
+    "alt": {
+      "type": "string",
+      "required": true
     }
   }
 }
