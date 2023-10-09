@@ -83,6 +83,15 @@
     "alt": {
       "type": "string",
       "required": true
+    },
+    "parcelas_semjuros": {
+      "type": "integer",
+      "required": true
+    },
+    "percent_juros": {
+      "type": "decimal",
+      "default": 3,
+      "required": true
     }
   }
 }
